@@ -32,3 +32,6 @@ venv/
 *.bak
 .idea/
 .vscode/
+
+# Evitar subir múltiplas cópias do JAR
+*.jar
