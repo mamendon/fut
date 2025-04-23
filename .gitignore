@@ -1,0 +1,34 @@
+# Arquivos de saída do validador
+outputs/
+*.result.json
+*.output.json
+
+# Arquivos esperados e temporários de testes
+tests/**/test*_expected.json
+
+# Bytecode Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs
+*.log
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Ambientes virtuais
+.venv/
+env/
+venv/
+
+# Arquivos de configuração pessoais
+*.env
+.env.*
+
+# Arquivos de build ou IDE
+*.swp
+*.bak
+.idea/
+.vscode/
